@@ -1,0 +1,7 @@
+<config>
+    <modules>
+        <Djs_DynamicCatalog>
+            <version>0.0.1</version>
+        </Djs_DynamicCatalog>
+    </modules>
+</config>

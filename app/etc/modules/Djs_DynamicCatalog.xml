@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Djs_DynamicCatalog>
+            <codePool>community</codePool>
+            <active>true</active>
+        </Djs_DynamicCatalog>
+    </modules>
+</config>
