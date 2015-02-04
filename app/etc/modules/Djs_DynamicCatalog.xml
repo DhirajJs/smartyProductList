@@ -3,6 +3,10 @@
         <Djs_DynamicCatalog>
             <codePool>community</codePool>
             <active>true</active>
+            <depends>
+                <Mage_Catalog/>
+            </depends>
         </Djs_DynamicCatalog>
     </modules>
+
 </config>

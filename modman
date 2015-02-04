@@ -1,6 +1,3 @@
 #Modman file for mapping checkoutapi 
-app/etc/modules/CheckoutApi_ChargePayment.xml  app/etc/modules/CheckoutApi_ChargePayment.xml 
-app/code/community/CheckoutApi/ChargePayment  app/code/community/CheckoutApi/ChargePayment
-app/design/frontend/base/default/template/chargepayment app/design/frontend/base/default/template/chargepayment
-app/design/frontend/base/default/layout/checkoutapi  app/design/frontend/base/default/layout/checkoutapi
-lib/CheckoutApi lib/CheckoutApi
+app/etc/modules/Djs_DynamicCatalog.xml  app/etc/modules/Djs_DynamicCatalog.xml 
+app/code/community/Djs app/code/community/Djs

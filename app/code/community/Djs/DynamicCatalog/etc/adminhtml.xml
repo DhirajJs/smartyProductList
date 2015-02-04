@@ -1,0 +1,29 @@
+<config>
+    <menu>
+        <catalog translate="title" module="catalog">
+
+            <children>
+                <djs_dynamiccatalog>
+                    <title>Dynamic Categories</title>
+                    <action>adminhtml/dynamiccategory</action>
+                    <sort_order>100</sort_order>
+                </djs_dynamiccatalog>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <djs_dynamiccatalog>
+                                <title>Dynamic Categories</title>
+                            </djs_dynamiccatalog>
+                        </children>
+                    </catalog>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -4,4 +4,27 @@
             <version>0.0.1</version>
         </Djs_DynamicCatalog>
     </modules>
+    <global>
+        <models>
+            <djs_dynamiccatalog>
+                <class>Djs_DynamicCatalog_Model</class>
+            </djs_dynamiccatalog>
+        </models>
+        <helpers>
+            <djs_dynamiccatalog>
+                <class>Djs_DynamicCatalog_Helper</class>
+            </djs_dynamiccatalog>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <djs_dynamiccatalog before="Mage_Adminhtml">Djs_DynamicCatalog_Adminhtml</djs_dynamiccatalog>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 </config>
