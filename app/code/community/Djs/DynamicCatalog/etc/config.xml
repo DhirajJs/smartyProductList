@@ -8,13 +8,32 @@
         <models>
             <djs_dynamiccatalog>
                 <class>Djs_DynamicCatalog_Model</class>
+                <resourceModel>djs_dynamiccatalog_resource</resourceModel>
             </djs_dynamiccatalog>
+            <djs_dynamiccatalog_resource>
+                <class>Djs_DynamicCatalog_Model_Resource</class>
+                <deprecatedNode>dynamiccatalog_mysql4</deprecatedNode>
+                <entities>
+                    <rule>
+                        <table>dynamiccatalog_rule</table>
+                    </rule>
+
+                </entities>
+            </djs_dynamiccatalog_resource>
         </models>
+
         <helpers>
             <djs_dynamiccatalog>
                 <class>Djs_DynamicCatalog_Helper</class>
             </djs_dynamiccatalog>
         </helpers>
+        <resources>
+            <dynamiccatalog_setup>
+                <setup>
+                    <module>Djs_DynamicCatalog</module>
+                </setup>
+            </dynamiccatalog_setup>
+        </resources>
     </global>
     <admin>
         <routers>
