@@ -1,3 +1,4 @@
 #Modman file for mapping checkoutapi 
 app/etc/modules/Djs_DynamicCatalog.xml  app/etc/modules/Djs_DynamicCatalog.xml 
 app/code/community/Djs app/code/community/Djs
+app/design/adminhtml/default/default/layout/dynamiccatalog.xml app/design/adminhtml/default/default/layout/dynamiccatalog.xml

@@ -45,5 +45,15 @@
                 </args>
             </adminhtml>
         </routers>
+
     </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <djs_dynamiccatalog>
+                    <file>dynamiccatalog.xml</file>
+                </djs_dynamiccatalog>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>
